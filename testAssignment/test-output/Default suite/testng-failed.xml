@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="seleniuminterview.testAssignment.TestCase2">
+        <methods>
+          <include name="initialbrowser"/>
+          <include name="destroy"/>
+          <include name="validateLoginSuccess"/>
+        </methods>
+      </class> <!-- seleniuminterview.testAssignment.TestCase2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53012" started-at="2020-09-01T15:30:24Z" finished-at="2020-09-01T15:31:17Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="53012" started-at="2020-09-01T15:30:24Z" finished-at="2020-09-01T15:31:17Z">
+      <class name="seleniuminterview.testAssignment.TestCase4">
+        <test-method status="PASS" signature="initialbrowser()[pri:0, instance:seleniuminterview.testAssignment.TestCase4@783e6358]" name="initialbrowser" is-config="true" duration-ms="6718" started-at="2020-09-01T21:00:57Z" finished-at="2020-09-01T21:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialbrowser -->
+        <test-method status="PASS" signature="verifyPromise()[pri:0, instance:seleniuminterview.testAssignment.TestCase4@783e6358]" name="verifyPromise" duration-ms="4721" started-at="2020-09-01T21:01:04Z" finished-at="2020-09-01T21:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPromise -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:seleniuminterview.testAssignment.TestCase4@783e6358]" name="destroy" is-config="true" duration-ms="124" started-at="2020-09-01T21:01:09Z" finished-at="2020-09-01T21:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- seleniuminterview.testAssignment.TestCase4 -->
+      <class name="seleniuminterview.testAssignment.TestCase5">
+        <test-method status="PASS" signature="initialbrowser()[pri:0, instance:seleniuminterview.testAssignment.TestCase5@17550481]" name="initialbrowser" is-config="true" duration-ms="6361" started-at="2020-09-01T21:01:09Z" finished-at="2020-09-01T21:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialbrowser -->
+        <test-method status="PASS" signature="validateLogout()[pri:0, instance:seleniuminterview.testAssignment.TestCase5@17550481]" name="validateLogout" duration-ms="1596" started-at="2020-09-01T21:01:15Z" finished-at="2020-09-01T21:01:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogout -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:seleniuminterview.testAssignment.TestCase5@17550481]" name="destroy" is-config="true" duration-ms="224" started-at="2020-09-01T21:01:17Z" finished-at="2020-09-01T21:01:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- seleniuminterview.testAssignment.TestCase5 -->
+      <class name="seleniuminterview.testAssignment.TestCase2">
+        <test-method status="PASS" signature="initialbrowser()[pri:0, instance:seleniuminterview.testAssignment.TestCase2@13fee20c]" name="initialbrowser" is-config="true" duration-ms="6102" started-at="2020-09-01T21:00:33Z" finished-at="2020-09-01T21:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialbrowser -->
+        <test-method status="PASS" signature="validateLoginSuccess()[pri:0, instance:seleniuminterview.testAssignment.TestCase2@13fee20c]" name="validateLoginSuccess" duration-ms="859" started-at="2020-09-01T21:00:39Z" finished-at="2020-09-01T21:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginSuccess -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:seleniuminterview.testAssignment.TestCase2@13fee20c]" name="destroy" is-config="true" duration-ms="126" started-at="2020-09-01T21:00:40Z" finished-at="2020-09-01T21:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- seleniuminterview.testAssignment.TestCase2 -->
+      <class name="seleniuminterview.testAssignment.TestCase3">
+        <test-method status="PASS" signature="initialbrowser()[pri:0, instance:seleniuminterview.testAssignment.TestCase3@4e04a765]" name="initialbrowser" is-config="true" duration-ms="6394" started-at="2020-09-01T21:00:40Z" finished-at="2020-09-01T21:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialbrowser -->
+        <test-method status="PASS" signature="addPromise()[pri:0, instance:seleniuminterview.testAssignment.TestCase3@4e04a765]" name="addPromise" duration-ms="11140" started-at="2020-09-01T21:00:46Z" finished-at="2020-09-01T21:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPromise -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:seleniuminterview.testAssignment.TestCase3@4e04a765]" name="destroy" is-config="true" duration-ms="118" started-at="2020-09-01T21:00:57Z" finished-at="2020-09-01T21:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- seleniuminterview.testAssignment.TestCase3 -->
+      <class name="seleniuminterview.testAssignment.TestCase1">
+        <test-method status="PASS" signature="initialbrowser()[pri:0, instance:seleniuminterview.testAssignment.TestCase1@64616ca2]" name="initialbrowser" is-config="true" duration-ms="7714" started-at="2020-09-01T21:00:24Z" finished-at="2020-09-01T21:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialbrowser -->
+        <test-method status="PASS" signature="verifyLoginValidation()[pri:0, instance:seleniuminterview.testAssignment.TestCase1@64616ca2]" name="verifyLoginValidation" duration-ms="569" started-at="2020-09-01T21:00:32Z" finished-at="2020-09-01T21:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginValidation -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:seleniuminterview.testAssignment.TestCase1@64616ca2]" name="destroy" is-config="true" duration-ms="171" started-at="2020-09-01T21:00:32Z" finished-at="2020-09-01T21:00:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- seleniuminterview.testAssignment.TestCase1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

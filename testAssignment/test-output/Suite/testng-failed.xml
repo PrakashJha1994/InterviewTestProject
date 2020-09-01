@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="commonUtil.Listener"/>
+    <listener class-name="commonUtil.TestngReport"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="seleniuminterview.testAssignment.TestCase2">
+        <methods>
+          <include name="initialbrowser"/>
+          <include name="destroy"/>
+        </methods>
+      </class> <!-- seleniuminterview.testAssignment.TestCase2 -->
+      <class name="seleniuminterview.testAssignment.TestCase3">
+        <methods>
+          <include name="initialbrowser"/>
+          <include name="destroy"/>
+        </methods>
+      </class> <!-- seleniuminterview.testAssignment.TestCase3 -->
+      <class name="seleniuminterview.testAssignment.TestCase1">
+        <methods>
+          <include name="verifyLoginValidation"/>
+          <include name="destroy"/>
+          <include name="initialbrowser"/>
+        </methods>
+      </class> <!-- seleniuminterview.testAssignment.TestCase1 -->
+      <class name="seleniuminterview.testAssignment.TestCase5">
+        <methods>
+          <include name="destroy"/>
+          <include name="initialbrowser"/>
+        </methods>
+      </class> <!-- seleniuminterview.testAssignment.TestCase5 -->
+      <class name="seleniuminterview.testAssignment.TestCase4">
+        <methods>
+          <include name="initialbrowser"/>
+          <include name="destroy"/>
+        </methods>
+      </class> <!-- seleniuminterview.testAssignment.TestCase4 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
